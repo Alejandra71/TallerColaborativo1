@@ -6,7 +6,7 @@
     
   '''   
 from Persona import Persona
-from curso import Curso 
+from Curso import Curso 
 
 class Estudiante(Persona):
     def __init__(self, nombre, edad, direccion, curso):
