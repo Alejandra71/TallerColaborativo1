@@ -1,5 +1,5 @@
 class Curso:
-    def _init_(self, nombre, codigo):
+    def __init__(self, nombre, codigo):
         self.__nombre = nombre
         self.__codigo = codigo
 
@@ -17,5 +17,5 @@ class Curso:
     def set_codigo(self, codigo):
         self.__codigo = codigo
     
-    def _str_(self):
-        return f"Curso: {self._nombre} (Código: {self._codigo})"
+    def __str__(self):
+        return f"Curso: {self.__nombre} (Código: {self.__codigo})"
