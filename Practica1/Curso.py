@@ -8,4 +8,4 @@ class Curso:
         self.estudiantes.append(estudiante)
 
     def mostrar_info(self):
-        return f'Código: {self.codigo}, \n Nombre : {self.nombre}, \n Estudiantes inscritos: {len(self.estudiantes)}'
+        return f'Código: {self.codigo}, \n Nombre: {self.nombre}, \n Estudiantes inscritos: {len(self.estudiantes)}'
